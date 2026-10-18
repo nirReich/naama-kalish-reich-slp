@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
+
+:root{--paper:#faf7f4;--white:#fffdfb;--ink:#24201f;--muted:#766f6b;--rose:#d6a09d;--rose-pale:#f0d9d5;--clay:#a96f69;--line:#e9dfda;--serif:"Playfair Display",Georgia,serif;--sans:"Heebo",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300}
+a{color:inherit;text-decoration:none}
+.site{overflow:hidden;background:var(--paper)}
+.rtl{direction:rtl}.ltr{direction:ltr}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}

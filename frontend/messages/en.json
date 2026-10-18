@@ -1,0 +1,61 @@
+{
+  "brand": "Naama Kalish Reich",
+  "profession": "Speech-Language Pathologist",
+  "city": "Tel Aviv",
+  "mainNavigation": "Main navigation",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "backToTop": "Back to top",
+  "nav": { "about": "About", "services": "Areas of care", "approach": "My approach", "contact": "Get in touch" },
+  "hero": {
+    "eyebrow": "Speech-language therapy · Tel Aviv",
+    "title": "Find your",
+    "titleAccent": "voice.",
+    "description": "A thoughtful space for growth, communication, and expression — for children and adults, at a pace and in a way that suits you.",
+    "primary": "Let’s talk",
+    "secondary": "Explore areas of care",
+    "portraitAlt": "Naama Kalish Reich",
+    "stampTop": "Listening",
+    "stampBottom": "Growing",
+    "captionLine1": "Communication begins",
+    "captionLine2": "with human connection."
+  },
+  "sections": { "about": "About", "services": "Areas of care", "approach": "My approach", "contact": "Get in touch" },
+  "about": {
+    "title1": "Listening to",
+    "title2": "what is said —",
+    "titleAccent": "and what’s next.",
+    "lead": "Hello, I’m Naama Kalish Reich, a speech-language pathologist.",
+    "description": "I support children and adults through assessment and therapy in communication, language, speech, voice, and oral functions. Every person and family has a story of their own, so I begin by listening, understanding your needs, and thinking together about a next step.",
+    "link": "Let’s see how I can help"
+  },
+  "services": {
+    "title1": "Everyone",
+    "titleAccent": "communicates their way.",
+    "description": "Care is tailored to age, needs, and personal goals. In an introductory conversation, we can explore what may be right for you.",
+    "note": "Information on this website is general and is not a substitute for an individual assessment or professional advice.",
+    "language": { "title": "Language & communication", "description": "Understanding and expression, vocabulary, sentence building, and everyday communication.", "linkLabel": "Ask about language and communication" },
+    "speech": { "title": "Speech & articulation", "description": "Sound production, speech clarity, and confidence in conversation.", "linkLabel": "Ask about speech and articulation" },
+    "voice": { "title": "Voice", "description": "Voice use, voice quality, and healthy voice habits.", "linkLabel": "Ask about voice therapy" },
+    "oral": { "title": "Oral functions", "description": "Assessment and support for oral functions, when appropriate.", "linkLabel": "Ask about oral functions" }
+  },
+  "approach": {
+    "photoAlt": "A therapy session with play and shared interaction",
+    "title1": "A safe space",
+    "title2": "to try, discover,",
+    "titleAccent": "and grow.",
+    "description": "A good process grows from connection, curiosity, and collaboration. Together, we set practical goals and look for ways to bring progress into everyday life — at home, in preschool, at school, and at work.",
+    "button": "Start with a conversation"
+  },
+  "contact": {
+    "title1": "Sometimes the",
+    "title2": "first step is simply",
+    "titleAccent": "asking.",
+    "description": "Get in touch for an introductory conversation and we can explore together whether and how I may be able to help.",
+    "phoneLabel": "Phone",
+    "locationLabel": "Clinic",
+    "address1": "8 Tirat Tsvi Street",
+    "address2": "Tel Aviv-Yafo, Israel",
+    "map": "Open map"
+  }
+}

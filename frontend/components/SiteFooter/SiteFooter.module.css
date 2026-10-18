@@ -1,0 +1,2 @@
+.footer{min-height:72px;padding:0 7vw;display:flex;align-items:center;gap:24px;background:#f1e8e3;color:#847a75;font-size:10px}.footer>a{margin-inline-start:auto;color:var(--clay);font-family:var(--serif);font-size:16px;letter-spacing:.12em}
+@media(max-width:680px){.footer{padding:0 7vw;gap:12px}}
