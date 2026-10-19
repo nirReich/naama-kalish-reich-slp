@@ -17,6 +17,5 @@ export default function ContactSection({ t }) {
       <Typography className={styles.address}>{t('contact.address1')}<br />{t('contact.address2')}</Typography>
       <Link className={styles.map} href="https://maps.google.com/?q=רחוב+טירת+צבי+8+תל+אביב" target="_blank" rel="noreferrer">{t('contact.map')}</Link>
     </Box></Box>
-    <Box className={styles.bottom}><span>{t('brand')}</span><span>{t('profession')} · {t('city')}</span><Link href="#home">{t('backToTop')} ↑</Link></Box>
   </Container></Box>;
 }
