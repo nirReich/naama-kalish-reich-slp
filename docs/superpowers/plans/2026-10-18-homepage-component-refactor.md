@@ -31,12 +31,12 @@
 ### Task 1: Add unit-test tooling and write interaction tests first
 
 **Files:**
-- Modify: `frontend/package.json`
-- Create: `frontend/vitest.config.js`
-- Create: `frontend/vitest.setup.js`
-- Create: `frontend/components/Header/Header.test.jsx`
-- Create: `frontend/components/ServiceCard/ServiceCard.test.jsx`
-- Create: `frontend/app/page.test.jsx`
+- Modify: `nkr_slp_frontend/package.json`
+- Create: `nkr_slp_frontend/vitest.config.js`
+- Create: `nkr_slp_frontend/vitest.setup.js`
+- Create: `nkr_slp_frontend/components/Header/Header.test.jsx`
+- Create: `nkr_slp_frontend/components/ServiceCard/ServiceCard.test.jsx`
+- Create: `nkr_slp_frontend/app/page.test.jsx`
 
 **Interfaces:**
 - Consumes: the approved component contracts below, which are not implemented yet.
@@ -66,12 +66,12 @@ Expected: Vitest starts; Header and ServiceCard tests fail because their compone
 ### Task 2: Implement Header and ServiceCard with local styles
 
 **Files:**
-- Create: `frontend/components/Header/Header.jsx`
-- Create: `frontend/components/Header/Header.module.css`
-- Modify: `frontend/components/Header/Header.test.jsx`
-- Create: `frontend/components/ServiceCard/ServiceCard.jsx`
-- Create: `frontend/components/ServiceCard/ServiceCard.module.css`
-- Modify: `frontend/components/ServiceCard/ServiceCard.test.jsx`
+- Create: `nkr_slp_frontend/components/Header/Header.jsx`
+- Create: `nkr_slp_frontend/components/Header/Header.module.css`
+- Modify: `nkr_slp_frontend/components/Header/Header.test.jsx`
+- Create: `nkr_slp_frontend/components/ServiceCard/ServiceCard.jsx`
+- Create: `nkr_slp_frontend/components/ServiceCard/ServiceCard.module.css`
+- Modify: `nkr_slp_frontend/components/ServiceCard/ServiceCard.test.jsx`
 
 **Interfaces:**
 - Consumes: the tests and Vitest setup from Task 1.
@@ -94,22 +94,22 @@ Expected: Header and ServiceCard tests pass; the page locale-restoration test pa
 ### Task 3: Extract the remaining sections and compose the page
 
 **Files:**
-- Create: `frontend/components/HeroSection/HeroSection.jsx`
-- Create: `frontend/components/HeroSection/HeroSection.module.css`
-- Create: `frontend/components/AboutSection/AboutSection.jsx`
-- Create: `frontend/components/AboutSection/AboutSection.module.css`
-- Create: `frontend/components/ServicesSection/ServicesSection.jsx`
-- Create: `frontend/components/ServicesSection/ServicesSection.module.css`
-- Create: `frontend/components/ApproachSection/ApproachSection.jsx`
-- Create: `frontend/components/ApproachSection/ApproachSection.module.css`
-- Create: `frontend/components/ContactSection/ContactSection.jsx`
-- Create: `frontend/components/ContactSection/ContactSection.module.css`
-- Create: `frontend/components/SiteFooter/SiteFooter.jsx`
-- Create: `frontend/components/SiteFooter/SiteFooter.module.css`
-- Create: `frontend/components/SectionKicker/SectionKicker.jsx`
-- Create: `frontend/components/SectionKicker/SectionKicker.module.css`
-- Modify: `frontend/app/page.jsx`
-- Modify: `frontend/app/globals.css`
+- Create: `nkr_slp_frontend/components/HeroSection/HeroSection.jsx`
+- Create: `nkr_slp_frontend/components/HeroSection/HeroSection.module.css`
+- Create: `nkr_slp_frontend/components/AboutSection/AboutSection.jsx`
+- Create: `nkr_slp_frontend/components/AboutSection/AboutSection.module.css`
+- Create: `nkr_slp_frontend/components/ServicesSection/ServicesSection.jsx`
+- Create: `nkr_slp_frontend/components/ServicesSection/ServicesSection.module.css`
+- Create: `nkr_slp_frontend/components/ApproachSection/ApproachSection.jsx`
+- Create: `nkr_slp_frontend/components/ApproachSection/ApproachSection.module.css`
+- Create: `nkr_slp_frontend/components/ContactSection/ContactSection.jsx`
+- Create: `nkr_slp_frontend/components/ContactSection/ContactSection.module.css`
+- Create: `nkr_slp_frontend/components/SiteFooter/SiteFooter.jsx`
+- Create: `nkr_slp_frontend/components/SiteFooter/SiteFooter.module.css`
+- Create: `nkr_slp_frontend/components/SectionKicker/SectionKicker.jsx`
+- Create: `nkr_slp_frontend/components/SectionKicker/SectionKicker.module.css`
+- Modify: `nkr_slp_frontend/app/page.jsx`
+- Modify: `nkr_slp_frontend/app/globals.css`
 
 **Interfaces:**
 - Consumes: `Header` and `ServiceCard` from Task 2.

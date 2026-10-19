@@ -14,7 +14,7 @@ A bilingual Hebrew and English information website for Naama Kalish Reich’s sp
 Requirements: Node.js and npm.
 
 ```sh
-cd frontend
+cd nkr_slp_frontend
 npm ci
 npm run dev
 ```
@@ -26,27 +26,27 @@ Open [http://localhost:3000](http://localhost:3000). Hebrew is the default langu
 Run the unit tests:
 
 ```sh
-cd frontend
+cd nkr_slp_frontend
 npm test
 ```
 
 Create a production build:
 
 ```sh
-cd frontend
+cd nkr_slp_frontend
 npm run build
 ```
 
 ## Project structure
 
-- `frontend/app/` — Next.js App Router pages, layout, and shared styles.
-- `frontend/components/` — reusable page sections and UI components.
-- `frontend/messages/` — Hebrew and English translations.
-- `frontend/public/assets/` — images and logo served by the website.
-- `backend/` — reserved for future backend work.
+- `nkr_slp_frontend/app/` — Next.js App Router pages, layout, and shared styles.
+- `nkr_slp_frontend/components/` — reusable page sections and UI components.
+- `nkr_slp_frontend/messages/` — Hebrew and English translations.
+- `nkr_slp_frontend/public/assets/` — images and logo served by the website.
+- `nkr_slp_backend/` — reserved for future backend work.
 - `ROADMAP.md` — phased website roadmap.
 
-Translation copy is managed in `frontend/messages/he.json` and `frontend/messages/en.json` and rendered through the `t()` function from `react-i18next`.
+Translation copy is managed in `nkr_slp_frontend/messages/he.json` and `nkr_slp_frontend/messages/en.json` and rendered through the `t()` function from `react-i18next`.
 
 ## License and repository visibility
 
